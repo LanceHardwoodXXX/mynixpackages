@@ -10,7 +10,7 @@
 
 DOWNLOAD_ORDNER="/home/florian/Downloads" # Passe diesen Pfad an deinen tatsächlichen Download-Ordner an
 ZIEL_ORDNER="/home/florian/mnt/Media/Download/watch/"
-LOG_FILE="home/florian/.local/share/moveNZB/moveNZB.log" # Pfad für die Log-Datei # Pfad für die Log-Datei
+LOG_FILE="/home/florian/.local/share/moveNZB/moveNZB.log" # Pfad für die Log-Datei # Pfad für die Log-Datei
 
 # Funktion zur Protokollierung
 log_message() {

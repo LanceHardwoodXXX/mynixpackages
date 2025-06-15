@@ -25,7 +25,7 @@
         # Das ist das Paket für dein Skript. Wir nennen es 'moveNZB'
         moveNZB = pkgs.stdenv.mkDerivation {
           pname = "moveNZB";
-          version = "0.1.0";
+          version = "0.2.0";
 
           # Die Quelle ist das aktuelle Verzeichnis, also das gesamte Git-Repo
           src = self;
@@ -36,7 +36,7 @@
             install -d $out/bin
 
             # ERSETZE 'DEIN_SKRIPT_NAME.sh' mit dem echten Namen
-            install -m 755 ./moveNZB/moveNZB.sh $out/bin/verschiebe-nzb
+            install -m 755 ./moveNZB/moveNZB.sh $out/bin/moveNZB
             
             # WICHTIG: Die Platzhalter werden jetzt nicht mehr ersetzt!
             # Das Skript bleibt generisch. Die Konfiguration erfolgt im System.
